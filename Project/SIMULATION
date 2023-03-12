@@ -1,0 +1,199 @@
+Initializing mac....
+Initializing radio channels....
+    using topology file: topology.txt
+    using noise file: meyer-heavy.txt
+Initializing simulator....
+Activate debug message on channel boot
+Activate debug message on channel status
+Activate debug message on channel timer
+Activate debug message on channel radio
+Creating node 0 (master)
+>>>Node 0 boots at time 0 [sec]
+Creating node 1
+>>>Node 1 boots at time 1 [sec]
+Creating node 2
+>>>Node 2 boots at time 2 [sec]
+Creating node 3
+>>>Node 3 boots at time 3 [sec]
+Creating radio channels...
+>>>Setting radio channel from node  0  to node  1  with gain  -60.0  dBm
+>>>Setting radio channel from node  0  to node  2  with gain  -60.0  dBm
+>>>Setting radio channel from node  0  to node  3  with gain  -60.0  dBm
+>>>Setting radio channel from node  1  to node  0  with gain  -60.0  dBm
+>>>Setting radio channel from node  1  to node  2  with gain  -60.0  dBm
+>>>Setting radio channel from node  1  to node  3  with gain  -60.0  dBm
+>>>Setting radio channel from node  2  to node  0  with gain  -60.0  dBm
+>>>Setting radio channel from node  2  to node  1  with gain  -60.0  dBm
+>>>Setting radio channel from node  2  to node  3  with gain  -60.0  dBm
+>>>Setting radio channel from node  3  to node  0  with gain  -60.0  dBm
+>>>Setting radio channel from node  3  to node  1  with gain  -60.0  dBm
+>>>Setting radio channel from node  3  to node  2  with gain  -60.0  dBm
+Initializing Closest Pattern Matching (CPM)...
+Reading noise model data file: meyer-heavy.txt
+Loading: Done!
+>>>Creating noise model for node: 0
+>>>Creating noise model for node: 1
+>>>Creating noise model for node: 2
+>>>Creating noise model for node: 3
+Start simulation with TOSSIM! 
+
+
+
+DEBUG (0): Bracelet 0 with Key: D0oM6MyHqWigyH1paRl3 booted at time: 0:0:0.000000000 .
+DEBUG (0): Bracelet 0: Radio on (0:0:0.000000010)!
+
+DEBUG (0): Bracelet 0: Start Timer (0:0:0.000000010)
+DEBUG (1): Bracelet 1 with Key: D0oM6MyHqWigyH1paRl3 booted at time: 0:0:1.000000000 .
+DEBUG (1): Bracelet 1: Radio on (0:0:1.000000010)!
+
+DEBUG (1): Bracelet 1: Start Timer (0:0:1.000000010)
+DEBUG (2): Bracelet 2 with Key: NmZQODR76wjmwgLNLq45 booted at time: 0:0:2.000000000 .
+DEBUG (2): Bracelet 2: Radio on (0:0:2.000000010)!
+
+DEBUG (2): Bracelet 2: Start Timer (0:0:2.000000010)
+DEBUG (3): Bracelet 3 with Key: NmZQODR76wjmwgLNLq45 booted at time: 0:0:3.000000000 .
+DEBUG (3): Bracelet 3: Radio on (0:0:3.000000010)!
+
+DEBUG (3): Bracelet 3: Start Timer (0:0:3.000000010)
+DEBUG (0): Bracelet 0 sent a broadcast pairing message (0:0:6.835937510)
+DEBUG (1): Bracelet 1 matched with Bracelet 0 !(0:0:6.839599598)
+DEBUG (1): Bracelet 1 sent a unicast message (ack requested) to stop pairing phase to Bracelet  0 (0:0:6.839599598)
+DEBUG (0): Bracelet 0 has received a stop pairing message!(0:0:6.843872034)
+DEBUG (0): Bracelet 0 stopped the pairing phase!(0:0:6.843872034)
+DEBUG (1): Bracelet 1 has received the message ACK!(0:0:6.844039879)
+
+DEBUG (1): Bracelet 1 sent a broadcast pairing message (0:0:7.835937510)
+DEBUG (0): Bracelet 0 matched with Bracelet 1 !(0:0:7.842895477)
+DEBUG (0): Bracelet 0 sent a unicast message (ack requested) to stop pairing phase to Bracelet  1 (0:0:7.842895477)
+DEBUG (1): Bracelet 1 has received a stop pairing message!(0:0:7.847808778)
+DEBUG (1): Bracelet 1 stopped the pairing phase!(0:0:7.847808778)
+DEBUG (1): Child Bracelet 1: Start Periodical Timer (10000 ms) (0:0:7.847808778)
+DEBUG (0): Bracelet 0 has received the message ACK!(0:0:7.847976624)
+
+DEBUG (2): Bracelet 2 sent a broadcast pairing message (0:0:8.835937510)
+DEBUG (3): Bracelet 3 matched with Bracelet 2 !(0:0:8.840591413)
+DEBUG (3): Bracelet 3 sent a unicast message (ack requested) to stop pairing phase to Bracelet  2 (0:0:8.840591413)
+DEBUG (2): Bracelet 2 has received a stop pairing message!(0:0:8.847106878)
+DEBUG (2): Bracelet 2 stopped the pairing phase!(0:0:8.847106878)
+DEBUG (3): Bracelet 3 has received the message ACK!(0:0:8.847274724)
+
+DEBUG (3): Bracelet 3 sent a broadcast pairing message (0:0:9.835937510)
+DEBUG (2): Bracelet 2 matched with Bracelet 3 !(0:0:9.843521083)
+DEBUG (2): Bracelet 2 sent a unicast message (ack requested) to stop pairing phase to Bracelet  3 (0:0:9.843521083)
+DEBUG (3): Bracelet 3 has received a stop pairing message!(0:0:9.852325353)
+DEBUG (3): Bracelet 3 stopped the pairing phase!(0:0:9.852325353)
+DEBUG (3): Child Bracelet 3: Start Periodical Timer (10000 ms) (0:0:9.852325353)
+DEBUG (2): Bracelet 2 has received the message ACK!(0:0:9.852493199)
+
+DEBUG (1): Child Bracelet 1 send a unicast INFO message: Status (ack requested): WALKING, X=78, Y=63 (0:0:17.613281260)
+DEBUG (0): Parent Bracelet 0 has received a INFO  message!(0:0:17.620758023)
+DEBUG (1): Bracelet 1 has received the message ACK!(0:0:17.620925868)
+
+DEBUG (3): Child Bracelet 3 send a unicast INFO message: Status (ack requested): STANDING, X=56, Y=27 (0:0:19.617187510)
+DEBUG (2): Parent Bracelet 2 has received a INFO  message!(0:0:19.627166699)
+DEBUG (3): Bracelet 3 has received the message ACK!(0:0:19.627334545)
+
+DEBUG (1): Child Bracelet 1 send a unicast INFO message: Status (ack requested): RUNNING, X=21, Y=80 (0:0:27.378906260)
+DEBUG (0): Parent Bracelet 0 has received a INFO  message!(0:0:27.383529646)
+DEBUG (1): Bracelet 1 has received the message ACK!(0:0:27.383697491)
+
+DEBUG (3): Child Bracelet 3 send a unicast INFO message: Status (ack requested): RUNNING, X=42, Y=24 (0:0:29.382812510)
+DEBUG (2): Parent Bracelet 2 has received a INFO  message!(0:0:29.386733995)
+DEBUG (3): Bracelet 3 has received the message ACK!(0:0:29.386901841)
+
+DEBUG (1): Child Bracelet 1 send a unicast INFO message: Status (ack requested): STANDING, X=17, Y=99 (0:0:37.144531260)
+DEBUG (0): Parent Bracelet 0 has received a INFO  message!(0:0:37.151153535)
+DEBUG (1): Bracelet 1 has received the message ACK!(0:0:37.151321381)
+
+DEBUG (3): Child Bracelet 3 send a unicast INFO message: Status (ack requested): STANDING, X=34, Y=98 (0:0:39.148437510)
+DEBUG (2): Parent Bracelet 2 has received a INFO  message!(0:0:39.159103341)
+DEBUG (3): Bracelet 3 has received the message ACK!(0:0:39.159271187)
+
+DEBUG (1): Child Bracelet 1 send a unicast INFO message: Status (ack requested): WALKING, X=92, Y=91 (0:0:46.910156260)
+DEBUG (0): Parent Bracelet 0 has received a INFO  message!(0:0:46.918456992)
+DEBUG (1): Bracelet 1 has received the message ACK!(0:0:46.918624838)
+
+DEBUG (3): Child Bracelet 3 send a unicast INFO message: Status (ack requested): RUNNING, X=85, Y=82 (0:0:48.914062510)
+DEBUG (2): Parent Bracelet 2 has received a INFO  message!(0:0:48.921401944)
+DEBUG (3): Bracelet 3 has received the message ACK!(0:0:48.921569790)
+
+DEBUG (1): Child Bracelet 1 send a unicast INFO message: Status (ack requested): RUNNING, X=44, Y=66 (0:0:56.675781260)
+DEBUG (0): Parent Bracelet 0 has received a INFO  message!(0:0:56.680831889)
+DEBUG (1): Bracelet 1 has received the message ACK!(0:0:56.680999735)
+
+DEBUG (3): Child Bracelet 3 send a unicast INFO message: Status (ack requested): WALKING, X=52, Y=96 (0:0:58.679687510)
+DEBUG (2): Parent Bracelet 2 has received a INFO  message!(0:0:58.690093943)
+DEBUG (3): Bracelet 3 has received the message ACK!(0:0:58.690261789)
+
+DEBUG (1): Child Bracelet 1 send a unicast INFO message: Status (ack requested): WALKING, X=31, Y=14 (0:1:6.441406260)
+DEBUG (0): Parent Bracelet 0 has received a INFO  message!(0:1:6.447769137)
+DEBUG (1): Bracelet 1 has received the message ACK!(0:1:6.447936983)
+
+DEBUG (3): Child Bracelet 3 send a unicast INFO message: Status (ack requested): RUNNING, X=62, Y=92 (0:1:8.445312510)
+DEBUG (2): Parent Bracelet 2 has received a INFO  message!(0:1:8.447891230)
+DEBUG (3): Bracelet 3 has received the message ACK!(0:1:8.448059076)
+
+DEBUG (1): Child Bracelet 1 send a unicast INFO message: Status (ack requested): RUNNING, X=44, Y=46 (0:1:16.207031260)
+DEBUG (0): Parent Bracelet 0 has received a INFO  message!(0:1:16.211456283)
+DEBUG (1): Bracelet 1 has received the message ACK!(0:1:16.211624128)
+
+DEBUG (3): Child Bracelet 3 send a unicast INFO message: Status (ack requested): STANDING, X=52, Y=93 (0:1:18.210937510)
+DEBUG (2): Parent Bracelet 2 has received a INFO  message!(0:1:18.214569080)
+DEBUG (3): Bracelet 3 has received the message ACK!(0:1:18.214736926)
+
+DEBUG (1): Child Bracelet 1 send a unicast INFO message: Status (ack requested): STANDING, X=55, Y=43 (0:1:25.972656260)
+DEBUG (0): Parent Bracelet 0 has received a INFO  message!(0:1:25.975021358)
+DEBUG (1): Bracelet 1 has received the message ACK!(0:1:25.975189204)
+
+DEBUG (3): Child Bracelet 3 send a unicast INFO message: Status (ack requested): STANDING, X=10, Y=87 (0:1:27.976562510)
+DEBUG (2): Parent Bracelet 2 has received a INFO  message!(0:1:27.984863242)
+DEBUG (3): Bracelet 3 has received the message ACK!(0:1:27.985031088)
+
+DEBUG (1): Child Bracelet 1 send a unicast INFO message: Status (ack requested): RUNNING, X=15, Y=26 (0:1:35.738281260)
+DEBUG (0): Parent Bracelet 0 has received a INFO  message!(0:1:35.748504589)
+DEBUG (1): Bracelet 1 has received the message ACK!(0:1:35.748672434)
+
+DEBUG (3): Child Bracelet 3 send a unicast INFO message: Status (ack requested): WALKING, X=94, Y=52 (0:1:37.742187510)
+DEBUG (2): Parent Bracelet 2 has received a INFO  message!(0:1:37.744369504)
+DEBUG (3): Bracelet 3 has received the message ACK!(0:1:37.744537349)
+
+DEBUG (1): Child Bracelet 1 send a unicast INFO message: Status (ack requested): RUNNING, X=0, Y=63 (0:1:45.503906260)
+DEBUG (0): Parent Bracelet 0 has received a INFO  message!(0:1:45.508407576)
+DEBUG (1): Bracelet 1 has received the message ACK!(0:1:45.508575422)
+
+DEBUG (3): Child Bracelet 3 send a unicast INFO message: Status (ack requested): WALKING, X=65, Y=26 (0:1:47.507812510)
+DEBUG (2): Parent Bracelet 2 has received a INFO  message!(0:1:47.510192867)
+DEBUG (3): Bracelet 3 has received the message ACK!(0:1:47.510360712)
+
+DEBUG (1): Child Bracelet 1 send a unicast INFO message: Status (ack requested): RUNNING, X=17, Y=24 (0:1:55.269531260)
+DEBUG (0): Parent Bracelet 0 has received a INFO  message!(0:1:55.279251051)
+DEBUG (1): Bracelet 1 has received the message ACK!(0:1:55.279418897)
+
+DEBUG (3): Child Bracelet 3 send a unicast INFO message: Status (ack requested): FALLING, X=35, Y=49 (0:1:57.273437510)
+DEBUG (2): Parent Bracelet 2 has received a INFO  message!(0:1:57.277725204)
+DEBUG (2): Parent Bracelet 2 has received a FALL alarm: STATUS=FALLING, X=35, Y=49! (0:1:57.277725204)
+DEBUG (3): Bracelet 3 has received the message ACK!(0:1:57.277893050)
+
+DEBUG (1): Child Bracelet 1 send a unicast INFO message: Status (ack requested): WALKING, X=17, Y=70 (0:2:5.035156260)
+DEBUG (0): Parent Bracelet 0 has received a INFO  message!(0:2:5.037750239)
+DEBUG (1): Bracelet 1 has received the message ACK!(0:2:5.037918084)
+
+DEBUG (3): Child Bracelet 3 send a unicast INFO message: Status (ack requested): STANDING, X=98, Y=41 (0:2:7.039062510)
+DEBUG (2): Parent Bracelet 2 has received a INFO  message!(0:2:7.045150731)
+DEBUG (3): Bracelet 3 has received the message ACK!(0:2:7.045318577)
+
+
+>>SHUTTING DOWN CHILDREN<<
+
+DEBUG (0): Parent Bracelet 0 receive a MISSING alarm. Last Pos: X=17, Y=70 (0:3:3.630859385)
+DEBUG (2): Parent Bracelet 2 receive a MISSING alarm. Last Pos: X=98, Y=41 (0:3:5.638671885)
+DEBUG (0): Parent Bracelet 0 receive a MISSING alarm. Last Pos: X=17, Y=70 (0:4:2.224609385)
+DEBUG (2): Parent Bracelet 2 receive a MISSING alarm. Last Pos: X=98, Y=41 (0:4:4.232421885)
+DEBUG (0): Parent Bracelet 0 receive a MISSING alarm. Last Pos: X=17, Y=70 (0:5:0.818359385)
+DEBUG (2): Parent Bracelet 2 receive a MISSING alarm. Last Pos: X=98, Y=41 (0:5:2.826171885)
+DEBUG (0): Parent Bracelet 0 receive a MISSING alarm. Last Pos: X=17, Y=70 (0:5:59.412109385)
+DEBUG (2): Parent Bracelet 2 receive a MISSING alarm. Last Pos: X=98, Y=41 (0:6:1.419921885)
+
+
+
+Simulation finished!
