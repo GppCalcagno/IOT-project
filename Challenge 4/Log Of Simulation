@@ -1,0 +1,280 @@
+user@user-iot:~/Desktop/SendACK$ python RunSimulationScript.py 
+********************************************
+*                                          *
+*             TOSSIM Script                *
+*                                          *
+********************************************
+Initializing mac....
+Initializing radio channels....
+    using topology file: topology.txt
+    using noise file: meyer-heavy.txt
+Initializing simulator....
+Activate debug message on channel init
+Activate debug message on channel boot
+Activate debug message on channel radio
+Activate debug message on channel radio_send
+Activate debug message on channel radio_ack
+Activate debug message on channel radio_rec
+Activate debug message on channel radio_pack
+Activate debug message on channel timer
+Creating node 1...
+>>>Will boot at time 0 [sec]
+Creating node 2...
+>>>Will boot at time 48 [sec]
+Creating radio channels...
+>>>Setting radio channel from node  1  to node  2  with gain  -60.0  dBm
+>>>Setting radio channel from node  2  to node  1  with gain  -60.0  dBm
+Initializing Closest Pattern Matching (CPM)...
+Reading noise model data file: meyer-heavy.txt
+Loading:##Done!
+>>>Creating noise model for node: 1
+>>>Creating noise model for node: 2
+Start simulation with TOSSIM! 
+
+
+
+DEBUG (1): Application 1 booted at time: 0:0:0.000000000 .
+DEBUG (1): Radio on!
+DEBUG (1): Timer started for Node 1 (1000m).
+DEBUG (1): Create Packet n: 0!
+DEBUG (1): ACK request settleds!
+DEBUG (1): REQ Packet n: 0 sent at time: 0:0:0.976562510 
+DEBUG (1): Packet ACK n:  0 NOT received !
+DEBUG (1): Create Packet n: 1!
+DEBUG (1): ACK request settleds!
+DEBUG (1): REQ Packet n: 1 sent at time: 0:0:1.953125010 
+DEBUG (1): Packet ACK n:  1 NOT received !
+DEBUG (1): Create Packet n: 2!
+DEBUG (1): ACK request settleds!
+DEBUG (1): REQ Packet n: 2 sent at time: 0:0:2.929687510 
+DEBUG (1): Packet ACK n:  2 NOT received !
+DEBUG (1): Create Packet n: 3!
+DEBUG (1): ACK request settleds!
+DEBUG (1): REQ Packet n: 3 sent at time: 0:0:3.906250010 
+DEBUG (1): Packet ACK n:  3 NOT received !
+DEBUG (1): Create Packet n: 4!
+DEBUG (1): ACK request settleds!
+DEBUG (1): REQ Packet n: 4 sent at time: 0:0:4.882812510 
+DEBUG (1): Packet ACK n:  4 NOT received !
+DEBUG (1): Create Packet n: 5!
+DEBUG (1): ACK request settleds!
+DEBUG (1): REQ Packet n: 5 sent at time: 0:0:5.859375010 
+DEBUG (1): Packet ACK n:  5 NOT received !
+DEBUG (1): Create Packet n: 6!
+DEBUG (1): ACK request settleds!
+DEBUG (1): REQ Packet n: 6 sent at time: 0:0:6.835937510 
+DEBUG (1): Packet ACK n:  6 NOT received !
+DEBUG (1): Create Packet n: 7!
+DEBUG (1): ACK request settleds!
+DEBUG (1): REQ Packet n: 7 sent at time: 0:0:7.812500010 
+DEBUG (1): Packet ACK n:  7 NOT received !
+DEBUG (1): Create Packet n: 8!
+DEBUG (1): ACK request settleds!
+DEBUG (1): REQ Packet n: 8 sent at time: 0:0:8.789062510 
+DEBUG (1): Packet ACK n:  8 NOT received !
+DEBUG (1): Create Packet n: 9!
+DEBUG (1): ACK request settleds!
+DEBUG (1): REQ Packet n: 9 sent at time: 0:0:9.765625010 
+DEBUG (1): Packet ACK n:  9 NOT received !
+DEBUG (1): Create Packet n: 10!
+DEBUG (1): ACK request settleds!
+DEBUG (1): REQ Packet n: 10 sent at time: 0:0:10.742187510 
+DEBUG (1): Packet ACK n:  10 NOT received !
+DEBUG (1): Create Packet n: 11!
+DEBUG (1): ACK request settleds!
+DEBUG (1): REQ Packet n: 11 sent at time: 0:0:11.718750010 
+DEBUG (1): Packet ACK n:  11 NOT received !
+DEBUG (1): Create Packet n: 12!
+DEBUG (1): ACK request settleds!
+DEBUG (1): REQ Packet n: 12 sent at time: 0:0:12.695312510 
+DEBUG (1): Packet ACK n:  12 NOT received !
+DEBUG (1): Create Packet n: 13!
+DEBUG (1): ACK request settleds!
+DEBUG (1): REQ Packet n: 13 sent at time: 0:0:13.671875010 
+DEBUG (1): Packet ACK n:  13 NOT received !
+DEBUG (1): Create Packet n: 14!
+DEBUG (1): ACK request settleds!
+DEBUG (1): REQ Packet n: 14 sent at time: 0:0:14.648437510 
+DEBUG (1): Packet ACK n:  14 NOT received !
+DEBUG (1): Create Packet n: 15!
+DEBUG (1): ACK request settleds!
+DEBUG (1): REQ Packet n: 15 sent at time: 0:0:15.625000010 
+DEBUG (1): Packet ACK n:  15 NOT received !
+DEBUG (1): Create Packet n: 16!
+DEBUG (1): ACK request settleds!
+DEBUG (1): REQ Packet n: 16 sent at time: 0:0:16.601562510 
+DEBUG (1): Packet ACK n:  16 NOT received !
+DEBUG (1): Create Packet n: 17!
+DEBUG (1): ACK request settleds!
+DEBUG (1): REQ Packet n: 17 sent at time: 0:0:17.578125010 
+DEBUG (1): Packet ACK n:  17 NOT received !
+DEBUG (1): Create Packet n: 18!
+DEBUG (1): ACK request settleds!
+DEBUG (1): REQ Packet n: 18 sent at time: 0:0:18.554687510 
+DEBUG (1): Packet ACK n:  18 NOT received !
+DEBUG (1): Create Packet n: 19!
+DEBUG (1): ACK request settleds!
+DEBUG (1): REQ Packet n: 19 sent at time: 0:0:19.531250010 
+DEBUG (1): Packet ACK n:  19 NOT received !
+DEBUG (1): Create Packet n: 20!
+DEBUG (1): ACK request settleds!
+DEBUG (1): REQ Packet n: 20 sent at time: 0:0:20.507812510 
+DEBUG (1): Packet ACK n:  20 NOT received !
+DEBUG (1): Create Packet n: 21!
+DEBUG (1): ACK request settleds!
+DEBUG (1): REQ Packet n: 21 sent at time: 0:0:21.484375010 
+DEBUG (1): Packet ACK n:  21 NOT received !
+DEBUG (1): Create Packet n: 22!
+DEBUG (1): ACK request settleds!
+DEBUG (1): REQ Packet n: 22 sent at time: 0:0:22.460937510 
+DEBUG (1): Packet ACK n:  22 NOT received !
+DEBUG (1): Create Packet n: 23!
+DEBUG (1): ACK request settleds!
+DEBUG (1): REQ Packet n: 23 sent at time: 0:0:23.437500010 
+DEBUG (1): Packet ACK n:  23 NOT received !
+DEBUG (1): Create Packet n: 24!
+DEBUG (1): ACK request settleds!
+DEBUG (1): REQ Packet n: 24 sent at time: 0:0:24.414062510 
+DEBUG (1): Packet ACK n:  24 NOT received !
+DEBUG (1): Create Packet n: 25!
+DEBUG (1): ACK request settleds!
+DEBUG (1): REQ Packet n: 25 sent at time: 0:0:25.390625010 
+DEBUG (1): Packet ACK n:  25 NOT received !
+DEBUG (1): Create Packet n: 26!
+DEBUG (1): ACK request settleds!
+DEBUG (1): REQ Packet n: 26 sent at time: 0:0:26.367187510 
+DEBUG (1): Packet ACK n:  26 NOT received !
+DEBUG (1): Create Packet n: 27!
+DEBUG (1): ACK request settleds!
+DEBUG (1): REQ Packet n: 27 sent at time: 0:0:27.343750010 
+DEBUG (1): Packet ACK n:  27 NOT received !
+DEBUG (1): Create Packet n: 28!
+DEBUG (1): ACK request settleds!
+DEBUG (1): REQ Packet n: 28 sent at time: 0:0:28.320312510 
+DEBUG (1): Packet ACK n:  28 NOT received !
+DEBUG (1): Create Packet n: 29!
+DEBUG (1): ACK request settleds!
+DEBUG (1): REQ Packet n: 29 sent at time: 0:0:29.296875010 
+DEBUG (1): Packet ACK n:  29 NOT received !
+DEBUG (1): Create Packet n: 30!
+DEBUG (1): ACK request settleds!
+DEBUG (1): REQ Packet n: 30 sent at time: 0:0:30.273437510 
+DEBUG (1): Packet ACK n:  30 NOT received !
+DEBUG (1): Create Packet n: 31!
+DEBUG (1): ACK request settleds!
+DEBUG (1): REQ Packet n: 31 sent at time: 0:0:31.250000010 
+DEBUG (1): Packet ACK n:  31 NOT received !
+DEBUG (1): Create Packet n: 32!
+DEBUG (1): ACK request settleds!
+DEBUG (1): REQ Packet n: 32 sent at time: 0:0:32.226562510 
+DEBUG (1): Packet ACK n:  32 NOT received !
+DEBUG (1): Create Packet n: 33!
+DEBUG (1): ACK request settleds!
+DEBUG (1): REQ Packet n: 33 sent at time: 0:0:33.203125010 
+DEBUG (1): Packet ACK n:  33 NOT received !
+DEBUG (1): Create Packet n: 34!
+DEBUG (1): ACK request settleds!
+DEBUG (1): REQ Packet n: 34 sent at time: 0:0:34.179687510 
+DEBUG (1): Packet ACK n:  34 NOT received !
+DEBUG (1): Create Packet n: 35!
+DEBUG (1): ACK request settleds!
+DEBUG (1): REQ Packet n: 35 sent at time: 0:0:35.156250010 
+DEBUG (1): Packet ACK n:  35 NOT received !
+DEBUG (1): Create Packet n: 36!
+DEBUG (1): ACK request settleds!
+DEBUG (1): REQ Packet n: 36 sent at time: 0:0:36.132812510 
+DEBUG (1): Packet ACK n:  36 NOT received !
+DEBUG (1): Create Packet n: 37!
+DEBUG (1): ACK request settleds!
+DEBUG (1): REQ Packet n: 37 sent at time: 0:0:37.109375010 
+DEBUG (1): Packet ACK n:  37 NOT received !
+DEBUG (1): Create Packet n: 38!
+DEBUG (1): ACK request settleds!
+DEBUG (1): REQ Packet n: 38 sent at time: 0:0:38.085937510 
+DEBUG (1): Packet ACK n:  38 NOT received !
+DEBUG (1): Create Packet n: 39!
+DEBUG (1): ACK request settleds!
+DEBUG (1): REQ Packet n: 39 sent at time: 0:0:39.062500010 
+DEBUG (1): Packet ACK n:  39 NOT received !
+DEBUG (1): Create Packet n: 40!
+DEBUG (1): ACK request settleds!
+DEBUG (1): REQ Packet n: 40 sent at time: 0:0:40.039062510 
+DEBUG (1): Packet ACK n:  40 NOT received !
+DEBUG (1): Create Packet n: 41!
+DEBUG (1): ACK request settleds!
+DEBUG (1): REQ Packet n: 41 sent at time: 0:0:41.015625010 
+DEBUG (1): Packet ACK n:  41 NOT received !
+DEBUG (1): Create Packet n: 42!
+DEBUG (1): ACK request settleds!
+DEBUG (1): REQ Packet n: 42 sent at time: 0:0:41.992187510 
+DEBUG (1): Packet ACK n:  42 NOT received !
+DEBUG (1): Create Packet n: 43!
+DEBUG (1): ACK request settleds!
+DEBUG (1): REQ Packet n: 43 sent at time: 0:0:42.968750010 
+DEBUG (1): Packet ACK n:  43 NOT received !
+DEBUG (1): Create Packet n: 44!
+DEBUG (1): ACK request settleds!
+DEBUG (1): REQ Packet n: 44 sent at time: 0:0:43.945312510 
+DEBUG (1): Packet ACK n:  44 NOT received !
+DEBUG (1): Create Packet n: 45!
+DEBUG (1): ACK request settleds!
+DEBUG (1): REQ Packet n: 45 sent at time: 0:0:44.921875010 
+DEBUG (1): Packet ACK n:  45 NOT received !
+DEBUG (1): Create Packet n: 46!
+DEBUG (1): ACK request settleds!
+DEBUG (1): REQ Packet n: 46 sent at time: 0:0:45.898437510 
+DEBUG (1): Packet ACK n:  46 NOT received !
+DEBUG (1): Create Packet n: 47!
+DEBUG (1): ACK request settleds!
+DEBUG (1): REQ Packet n: 47 sent at time: 0:0:46.875000010 
+DEBUG (1): Packet ACK n:  47 NOT received !
+DEBUG (1): Create Packet n: 48!
+DEBUG (1): ACK request settleds!
+DEBUG (1): REQ Packet n: 48 sent at time: 0:0:47.851562510 
+DEBUG (1): Packet ACK n:  48 NOT received !
+DEBUG (2): Application 2 booted at time: 0:0:48.000000000 .
+DEBUG (2): Radio on!
+DEBUG (1): Create Packet n: 49!
+DEBUG (1): ACK request settleds!
+DEBUG (1): REQ Packet n: 49 sent at time: 0:0:48.828125010 
+DEBUG (2): Message received from Node : 2 
+DEBUG (2): Type = REQ, Counter=49 
+
+DEBUG (1): Packet ACK n: 49 received - Number of ACK: 1!
+DEBUG (2): Create RESPONSE to Packet n: 49 !
+DEBUG (2): ACK request settleds!
+DEBUG (2): RESP Packet n: 49 sent at time: 0:0:48.843750010 
+DEBUG (1): Message received from Node : 1 
+DEBUG (1): Type = RES, Counter=49, Value=50421 
+
+DEBUG (2): Packet REQUEST n: ACK 49 received !
+DEBUG (1): Create Packet n: 50!
+DEBUG (1): ACK request settleds!
+DEBUG (1): REQ Packet n: 50 sent at time: 0:0:49.804687510 
+DEBUG (2): Message received from Node : 2 
+DEBUG (2): Type = REQ, Counter=50 
+
+DEBUG (1): Packet ACK n: 50 received - Number of ACK: 2!
+DEBUG (2): Create RESPONSE to Packet n: 50 !
+DEBUG (2): ACK request settleds!
+DEBUG (2): RESP Packet n: 50 sent at time: 0:0:49.817382822 
+DEBUG (1): Message received from Node : 1 
+DEBUG (1): Type = RES, Counter=50, Value=45267 
+
+DEBUG (2): Packet REQUEST n: ACK 50 received !
+DEBUG (1): Create Packet n: 51!
+DEBUG (1): ACK request settleds!
+DEBUG (1): REQ Packet n: 51 sent at time: 0:0:50.781250010 
+DEBUG (2): Message received from Node : 2 
+DEBUG (2): Type = REQ, Counter=51 
+
+DEBUG (1): Packet ACK n: 51 received - Number of ACK: 3!
+DEBUG (1): Timer Stopped, Ack Received: 3 !
+DEBUG (2): Create RESPONSE to Packet n: 51 !
+DEBUG (2): ACK request settleds!
+DEBUG (2): RESP Packet n: 51 sent at time: 0:0:50.794921885 
+DEBUG (1): Message received from Node : 1 
+DEBUG (1): Type = RES, Counter=51, Value=1677 
+
+DEBUG (2): Packet REQUEST n: ACK 51 received !
+
