@@ -29,17 +29,34 @@ thingspeak using MQTT, exploiting [TinyOs](https://it.wikipedia.org/wiki/TinyOS)
 
 <div align="center">
 
-![image](https://user-images.githubusercontent.com/94358195/224761815-d77cc54e-a3c7-43c3-b535-d8c13277da1b.png)
+<img src="https://user-images.githubusercontent.com/94358195/224761815-d77cc54e-a3c7-43c3-b535-d8c13277da1b.png" width="500">
 
 </div>
 
 --- 
 ### 4) Fourth challenge
 The goal of the challenge is to simulate a Wireless sensor Network with [TOSSIM](http://tinyos.stanford.edu/tinyos-wiki/index.php/TOSSIM). The network is composed by  2 motes talking between each others. In the relative folder are present:
-* [Report]()that describe all the development phases.
+* [Report](https://github.com/GppCalcagno/IOT-project/blob/main/Challenge%204/Report.pdf) that describe all the development phases.
+* [TinyOS project](https://github.com/GppCalcagno/IOT-project/tree/main/Challenge%204/SendACK) that contains the code of the mote
+* [Communication Log file](https://github.com/GppCalcagno/IOT-project/blob/main/Challenge%204/Log%20Of%20Simulation)
 
 <div align="center">
 
-![image](https://user-images.githubusercontent.com/94358195/224763277-abd517c6-ccd9-4895-9704-46e70d8f6793.png)
+<img src="https://user-images.githubusercontent.com/94358195/224763277-abd517c6-ccd9-4895-9704-46e70d8f6793.png" width="300">
 
 </div>
+
+---
+
+### 5)  :baby_bottle: Final Project -  Smart Bracelets
+The goal of the project is to design, implement and test a software prototype for a smart bracelet. The bracelet is worn by a child and her/his parent to keep track of the child’s position and trigger alerts when a child goes too far.
+
+The software was developed in tinyOS and the simulation was done with Tossim. In the relative folder are present:
+* [Specification file](https://github.com/GppCalcagno/IOT-project/blob/main/Project/Specifics.pdf) with the description of the project and also some not-implemented idea 
+* Tossim Simulation [Script](https://github.com/GppCalcagno/IOT-project/blob/main/Project/TOSSIM.py)
+* The entire folder contain the TinyOS project with the code of the mote
+* [Report](https://github.com/GppCalcagno/IOT-project/blob/main/Project/Report.pdf) that describe all the development phases.
+* [Log file](https://github.com/GppCalcagno/IOT-project/blob/main/Project/Simulation%20With%20message%20lost) of the Simulation
+
+--- 
+✔️ Final Evaluation: 7.9/8
